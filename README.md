@@ -1,4 +1,4 @@
-# Miranda sandbox
+# MIRANDA SANDBOX (A new start)
 
 This is a sandbox. This repository can be used to start a new game with Miranda or to test some of the *amazing* features of my favourite library.
 
