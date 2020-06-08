@@ -1,0 +1,55 @@
+{
+  "game": "relentless one",
+  "author": "Andrea Nardinocchi and Luna Paciucci",
+  "email": "andrea@nardinan.it",
+  "date": "20 February 2018",
+  "screen": {
+    "width": 1024,
+    "height": 576,
+    "fullscreen": false
+  },
+  "geometry": {
+    "width": 1280,
+    "height": 720,
+    "scale": 1.0
+  },
+  "language": 1,
+  "volume_effects": 1.5,
+  "volume_music": 1.5,
+  "fonts": [
+    {
+      "font": "bobcaygr_font",
+      "size": 20
+    },
+    {
+      "font": "bobcaygr_font",
+      "size": 30
+    },
+    {
+      "font": "bobcaygr_font",
+      "size": 60
+    }
+  ],
+  "ui": {
+    "field": {
+      "size": 255
+    },
+    "checkbox": {
+      "checked": "checkbox_selected_C",
+      "unchecked": "checkbox_active_C"
+    },
+    "list": {
+      "selected_G": 255,
+      "selected_A": 60,
+      "over_R": 255,
+      "over_G": 255,
+      "over_B": 255,
+      "over_A": 20
+    },
+    "scroll": {
+      "scroll": "scroll_toggle",
+      "pointer": "scroll_pointer",
+      "width": 15
+    }
+  }
+}

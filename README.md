@@ -1,2 +1,2 @@
-# miranda_sandbox
-A small sandbox that could be used to quickly try some features in Miranda
+# Miranda sandbox
+This is a quick view to test few Miranda's features and an easy way to start a new game
