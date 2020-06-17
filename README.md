@@ -13,12 +13,13 @@ The game depends on the following libraries:
  * libSDL2_ttf
  * libSDL2_mixer
  * libSDL2_image
+ * libSDL2_gfx
 
 ### Compilation on Ubuntu (and possibly any other _Debian-based_ distribution)
 
 Open a terminal and install the SDL2 libraries using **apt**:
 ```bash
-$ sudo apt-get install libsdl2-dev libsdl2-image-dev libsdl2-mixer-dev libsdl2-ttf-dev
+$ sudo apt-get install libsdl2-dev libsdl2-image-dev libsdl2-mixer-dev libsdl2-ttf-dev libsdl2-gfx
 ```
 
 Now that all the required SDL2 packages have been installed, it's time for Miranda:
@@ -44,7 +45,7 @@ $ make
 
 On MacOS X, the installation procedure has been tested with Brew (https://brew.sh/). To install the SDL2 libraries via the *brew* command, type the following:
 ```bash
-$ brew install sdl2 sdl2_image sdl2_ttf
+$ brew install sdl2 sdl2_image sdl2_ttf sdl2_gfx
 $ brew install sdl2_mixer --with-flac --with-fluid-synth --with-libmikmod --with-mpg123 --HEAD
 ```
 Once the libraries have been successfully installed, refer to the paragraph about the installation of Miranda and Linkino on the section 'Compilation on Ubuntu' above.
